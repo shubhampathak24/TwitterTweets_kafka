@@ -1,0 +1,760 @@
+[2021-08-10 22:44:29,070] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:44:29,071] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:44:29,072] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:44:29,073] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-08-10 22:44:29,080] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-08-10 22:44:29,115] ERROR Invalid arguments, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.lang.NumberFormatException: For input string: ".."
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:646)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at org.apache.zookeeper.server.ServerConfig.parse(ServerConfig.java:63)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:104)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:65)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:128)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:82)
+[2021-08-10 22:44:29,141] INFO Usage: ZooKeeperServerMain configfile | port datadir [ticktime] [maxcnxns] (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-08-10 22:56:02,394] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,469] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,525] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,526] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,547] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:56:02,548] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:56:02,549] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 22:56:02,550] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-08-10 22:56:02,555] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-08-10 22:56:02,577] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,579] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,580] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,581] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 22:56:02,582] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-08-10 22:56:02,589] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 22:56:02,664] INFO Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,665] INFO Server environment:host.name=DESKTOP-VK49A2E.mshome.net (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,665] INFO Server environment:java.version=16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,666] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,667] INFO Server environment:java.home=C:\Program Files\Java\jdk-16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,667] INFO Server environment:java.class.path=D:\Make-a-thon\kafka\libs\activation-1.1.1.jar;D:\Make-a-thon\kafka\libs\aopalliance-repackaged-2.6.1.jar;D:\Make-a-thon\kafka\libs\argparse4j-0.7.0.jar;D:\Make-a-thon\kafka\libs\audience-annotations-0.5.0.jar;D:\Make-a-thon\kafka\libs\commons-cli-1.4.jar;D:\Make-a-thon\kafka\libs\commons-lang3-3.8.1.jar;D:\Make-a-thon\kafka\libs\connect-api-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-basic-auth-extension-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-file-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-json-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-client-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-runtime-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-transforms-2.8.0.jar;D:\Make-a-thon\kafka\libs\hk2-api-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-locator-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-utils-2.6.1.jar;D:\Make-a-thon\kafka\libs\jackson-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-core-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-databind-2.10.5.1.jar;D:\Make-a-thon\kafka\libs\jackson-dataformat-csv-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-datatype-jdk8-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-base-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-json-provider-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-jaxb-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-paranamer-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-scala_2.13-2.10.5.jar;D:\Make-a-thon\kafka\libs\jakarta.activation-api-1.2.1.jar;D:\Make-a-thon\kafka\libs\jakarta.annotation-api-1.3.5.jar;D:\Make-a-thon\kafka\libs\jakarta.inject-2.6.1.jar;D:\Make-a-thon\kafka\libs\jakarta.validation-api-2.0.2.jar;D:\Make-a-thon\kafka\libs\jakarta.ws.rs-api-2.1.6.jar;D:\Make-a-thon\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;D:\Make-a-thon\kafka\libs\javassist-3.27.0-GA.jar;D:\Make-a-thon\kafka\libs\javax.servlet-api-3.1.0.jar;D:\Make-a-thon\kafka\libs\javax.ws.rs-api-2.1.1.jar;D:\Make-a-thon\kafka\libs\jaxb-api-2.3.0.jar;D:\Make-a-thon\kafka\libs\jersey-client-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-common-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-core-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-hk2-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-media-jaxb-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-server-2.31.jar;D:\Make-a-thon\kafka\libs\jetty-client-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-continuation-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-http-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-io-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-security-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-server-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlet-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlets-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-ajax-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jline-3.12.1.jar;D:\Make-a-thon\kafka\libs\jopt-simple-5.0.4.jar;D:\Make-a-thon\kafka\libs\kafka-clients-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-log4j-appender-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-metadata-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-raft-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-shell-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-examples-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-scala_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-test-utils-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-tools-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar.asc;D:\Make-a-thon\kafka\libs\log4j-1.2.17.jar;D:\Make-a-thon\kafka\libs\lz4-java-1.7.1.jar;D:\Make-a-thon\kafka\libs\maven-artifact-3.6.3.jar;D:\Make-a-thon\kafka\libs\metrics-core-2.2.0.jar;D:\Make-a-thon\kafka\libs\netty-buffer-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-codec-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-handler-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-resolver-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-epoll-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-unix-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\osgi-resource-locator-1.0.3.jar;D:\Make-a-thon\kafka\libs\paranamer-2.8.jar;D:\Make-a-thon\kafka\libs\plexus-utils-3.2.1.jar;D:\Make-a-thon\kafka\libs\reflections-0.9.12.jar;D:\Make-a-thon\kafka\libs\rocksdbjni-5.18.4.jar;D:\Make-a-thon\kafka\libs\scala-collection-compat_2.13-2.3.0.jar;D:\Make-a-thon\kafka\libs\scala-java8-compat_2.13-0.9.1.jar;D:\Make-a-thon\kafka\libs\scala-library-2.13.5.jar;D:\Make-a-thon\kafka\libs\scala-logging_2.13-3.9.2.jar;D:\Make-a-thon\kafka\libs\scala-reflect-2.13.5.jar;D:\Make-a-thon\kafka\libs\slf4j-api-1.7.30.jar;D:\Make-a-thon\kafka\libs\slf4j-log4j12-1.7.30.jar;D:\Make-a-thon\kafka\libs\snappy-java-1.1.8.1.jar;D:\Make-a-thon\kafka\libs\zookeeper-3.5.9.jar;D:\Make-a-thon\kafka\libs\zookeeper-jute-3.5.9.jar;D:\Make-a-thon\kafka\libs\zstd-jni-1.4.9-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,679] INFO Server environment:java.library.path=C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;C:\Users\shubh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python39\;C:\Users\shubh\Anaconda3;C:\Users\shubh\Anaconda3\Library\mingw-w64\bin;C:\Users\shubh\Anaconda3\Library\usr\bin;C:\Users\shubh\Anaconda3\Library\bin;C:\Users\shubh\Anaconda3\Scripts;C:\Users\shubh\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python36\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,681] INFO Server environment:java.io.tmpdir=C:\Users\shubh\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,682] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,682] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,683] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,684] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,684] INFO Server environment:user.name=shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,685] INFO Server environment:user.home=C:\Users\shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,685] INFO Server environment:user.dir=D:\Make-a-thon\kafka (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,686] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,687] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,690] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,695] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,697] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:02,698] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir D:\Make-a-thon\kafka\data\zookeeper\version-2 snapdir D:\Make-a-thon\kafka\data\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 22:56:03,106] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2021-08-10 22:56:03,202] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 22:56:03,209] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 22:56:03,269] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2021-08-10 22:56:03,277] INFO Snapshotting: 0x0 to D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 22:56:03,298] INFO Snapshotting: 0x0 to D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 22:56:03,323] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2021-08-10 22:56:03,359] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2021-08-10 22:57:01,104] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2021-08-10 22:57:01,964] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2021-08-10 22:57:02,366] INFO starting (kafka.server.KafkaServer)
+[2021-08-10 22:57:02,367] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-08-10 22:57:02,445] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2021-08-10 22:57:02,469] INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,470] INFO Client environment:host.name=DESKTOP-VK49A2E.mshome.net (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,471] INFO Client environment:java.version=16.0.2 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,471] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,471] INFO Client environment:java.home=C:\Program Files\Java\jdk-16.0.2 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,472] INFO Client environment:java.class.path=D:\Make-a-thon\kafka\libs\activation-1.1.1.jar;D:\Make-a-thon\kafka\libs\aopalliance-repackaged-2.6.1.jar;D:\Make-a-thon\kafka\libs\argparse4j-0.7.0.jar;D:\Make-a-thon\kafka\libs\audience-annotations-0.5.0.jar;D:\Make-a-thon\kafka\libs\commons-cli-1.4.jar;D:\Make-a-thon\kafka\libs\commons-lang3-3.8.1.jar;D:\Make-a-thon\kafka\libs\connect-api-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-basic-auth-extension-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-file-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-json-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-client-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-runtime-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-transforms-2.8.0.jar;D:\Make-a-thon\kafka\libs\hk2-api-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-locator-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-utils-2.6.1.jar;D:\Make-a-thon\kafka\libs\jackson-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-core-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-databind-2.10.5.1.jar;D:\Make-a-thon\kafka\libs\jackson-dataformat-csv-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-datatype-jdk8-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-base-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-json-provider-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-jaxb-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-paranamer-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-scala_2.13-2.10.5.jar;D:\Make-a-thon\kafka\libs\jakarta.activation-api-1.2.1.jar;D:\Make-a-thon\kafka\libs\jakarta.annotation-api-1.3.5.jar;D:\Make-a-thon\kafka\libs\jakarta.inject-2.6.1.jar;D:\Make-a-thon\kafka\libs\jakarta.validation-api-2.0.2.jar;D:\Make-a-thon\kafka\libs\jakarta.ws.rs-api-2.1.6.jar;D:\Make-a-thon\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;D:\Make-a-thon\kafka\libs\javassist-3.27.0-GA.jar;D:\Make-a-thon\kafka\libs\javax.servlet-api-3.1.0.jar;D:\Make-a-thon\kafka\libs\javax.ws.rs-api-2.1.1.jar;D:\Make-a-thon\kafka\libs\jaxb-api-2.3.0.jar;D:\Make-a-thon\kafka\libs\jersey-client-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-common-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-core-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-hk2-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-media-jaxb-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-server-2.31.jar;D:\Make-a-thon\kafka\libs\jetty-client-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-continuation-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-http-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-io-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-security-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-server-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlet-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlets-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-ajax-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jline-3.12.1.jar;D:\Make-a-thon\kafka\libs\jopt-simple-5.0.4.jar;D:\Make-a-thon\kafka\libs\kafka-clients-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-log4j-appender-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-metadata-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-raft-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-shell-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-examples-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-scala_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-test-utils-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-tools-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar.asc;D:\Make-a-thon\kafka\libs\log4j-1.2.17.jar;D:\Make-a-thon\kafka\libs\lz4-java-1.7.1.jar;D:\Make-a-thon\kafka\libs\maven-artifact-3.6.3.jar;D:\Make-a-thon\kafka\libs\metrics-core-2.2.0.jar;D:\Make-a-thon\kafka\libs\netty-buffer-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-codec-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-handler-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-resolver-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-epoll-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-unix-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\osgi-resource-locator-1.0.3.jar;D:\Make-a-thon\kafka\libs\paranamer-2.8.jar;D:\Make-a-thon\kafka\libs\plexus-utils-3.2.1.jar;D:\Make-a-thon\kafka\libs\reflections-0.9.12.jar;D:\Make-a-thon\kafka\libs\rocksdbjni-5.18.4.jar;D:\Make-a-thon\kafka\libs\scala-collection-compat_2.13-2.3.0.jar;D:\Make-a-thon\kafka\libs\scala-java8-compat_2.13-0.9.1.jar;D:\Make-a-thon\kafka\libs\scala-library-2.13.5.jar;D:\Make-a-thon\kafka\libs\scala-logging_2.13-3.9.2.jar;D:\Make-a-thon\kafka\libs\scala-reflect-2.13.5.jar;D:\Make-a-thon\kafka\libs\slf4j-api-1.7.30.jar;D:\Make-a-thon\kafka\libs\slf4j-log4j12-1.7.30.jar;D:\Make-a-thon\kafka\libs\snappy-java-1.1.8.1.jar;D:\Make-a-thon\kafka\libs\zookeeper-3.5.9.jar;D:\Make-a-thon\kafka\libs\zookeeper-jute-3.5.9.jar;D:\Make-a-thon\kafka\libs\zstd-jni-1.4.9-1.jar (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,481] INFO Client environment:java.library.path=C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;C:\Users\shubh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python39\;C:\Users\shubh\Anaconda3;C:\Users\shubh\Anaconda3\Library\mingw-w64\bin;C:\Users\shubh\Anaconda3\Library\usr\bin;C:\Users\shubh\Anaconda3\Library\bin;C:\Users\shubh\Anaconda3\Scripts;C:\Users\shubh\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python36\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;;. (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,484] INFO Client environment:java.io.tmpdir=C:\Users\shubh\AppData\Local\Temp\ (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,485] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,485] INFO Client environment:os.name=Windows 10 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,486] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,487] INFO Client environment:os.version=10.0 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,488] INFO Client environment:user.name=shubh (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,488] INFO Client environment:user.home=C:\Users\shubh (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,489] INFO Client environment:user.dir=D:\Make-a-thon\kafka (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,489] INFO Client environment:os.memory.free=987MB (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,490] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,490] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,498] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@5d99c6b5 (org.apache.zookeeper.ZooKeeper)
+[2021-08-10 22:57:02,583] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2021-08-10 22:57:02,622] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 22:57:02,625] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2021-08-10 22:57:02,638] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 22:57:02,649] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:54957, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 22:57:02,682] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2021-08-10 22:57:02,731] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, sessionid = 0x100023f1aea0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 22:57:02,735] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2021-08-10 22:57:03,663] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+[2021-08-10 22:57:03,691] INFO Feature ZK node at path: /feature does not exist (kafka.server.FinalizedFeatureChangeListener)
+[2021-08-10 22:57:03,692] INFO Cleared cache (kafka.server.FinalizedFeatureCache)
+[2021-08-10 22:57:04,119] INFO Cluster ID = rAnhKDXFRVeTcuj16Z42VQ (kafka.server.KafkaServer)
+[2021-08-10 22:57:04,140] WARN No meta.properties file under dir D:\Make-a-thon\kafka\data\kafka\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-08-10 22:57:04,293] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.8-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = D:/Make-a-thon/kafka/data/kafka
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.8-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = -1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-08-10 22:57:04,356] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.heartbeat.interval.ms = 2000
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	broker.session.timeout.ms = 9000
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.listener.names = null
+	controller.quorum.append.linger.ms = 25
+	controller.quorum.election.backoff.max.ms = 1000
+	controller.quorum.election.timeout.ms = 1000
+	controller.quorum.fetch.timeout.ms = 2000
+	controller.quorum.request.timeout.ms = 2000
+	controller.quorum.retry.backoff.ms = 20
+	controller.quorum.voters = []
+	controller.quota.window.num = 11
+	controller.quota.window.size.seconds = 1
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delegation.token.secret.key = null
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	initial.broker.registration.timeout.ms = 60000
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.8-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = D:/Make-a-thon/kafka/data/kafka
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.8-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connection.creation.rate = 2147483647
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metadata.log.dir = null
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	node.id = -1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	process.roles = []
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.controller.protocol = GSSAPI
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-08-10 22:57:04,586] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-08-10 22:57:04,587] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-08-10 22:57:04,590] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-08-10 22:57:04,591] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2021-08-10 22:57:04,746] INFO Loading logs from log dirs ArraySeq(D:\Make-a-thon\kafka\data\kafka) (kafka.log.LogManager)
+[2021-08-10 22:57:04,752] INFO Attempting recovery for all logs in D:\Make-a-thon\kafka\data\kafka since no clean shutdown file was found (kafka.log.LogManager)
+[2021-08-10 22:57:04,766] INFO Loaded 0 logs in 20ms. (kafka.log.LogManager)
+[2021-08-10 22:57:04,767] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-08-10 22:57:04,774] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-08-10 22:57:05,596] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+[2021-08-10 22:57:05,623] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2021-08-10 22:57:05,773] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2021-08-10 22:57:05,876] INFO [broker-0-to-controller-send-thread]: Starting (kafka.server.BrokerToControllerRequestThread)
+[2021-08-10 22:57:05,929] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:05,930] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:05,933] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:05,934] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:05,974] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2021-08-10 22:57:06,073] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2021-08-10 22:57:06,181] INFO Stat of the created znode at /brokers/ids/0 is: 25,25,1628616426127,1628616426127,1,0,0,72060064095666176,236,0,25
+ (kafka.zk.KafkaZkClient)
+[2021-08-10 22:57:06,184] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://DESKTOP-VK49A2E.mshome.net:9092, czxid (broker epoch): 25 (kafka.zk.KafkaZkClient)
+[2021-08-10 22:57:06,412] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:06,428] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:06,430] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:06,460] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2021-08-10 22:57:06,473] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2021-08-10 22:57:06,504] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2021-08-10 22:57:06,537] INFO Feature ZK node created at path: /feature (kafka.server.FinalizedFeatureChangeListener)
+[2021-08-10 22:57:06,628] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2021-08-10 22:57:06,630] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-08-10 22:57:06,636] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2021-08-10 22:57:06,638] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2021-08-10 22:57:06,719] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+[2021-08-10 22:57:06,757] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-08-10 22:57:06,820] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2021-08-10 22:57:06,862] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2021-08-10 22:57:06,876] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2021-08-10 22:57:06,879] INFO [SocketServer listenerType=ZK_BROKER, nodeId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2021-08-10 22:57:06,939] INFO Kafka version: 2.8.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-08-10 22:57:06,940] INFO Kafka commitId: ebb1d6e21cc92130 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-08-10 22:57:06,941] INFO Kafka startTimeMs: 1628616426883 (org.apache.kafka.common.utils.AppInfoParser)
+[2021-08-10 22:57:06,948] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2021-08-10 22:57:07,286] INFO [broker-0-to-controller-send-thread]: Recorded new controller, from now on will use broker DESKTOP-VK49A2E.mshome.net:9092 (id: 0 rack: null) (kafka.server.BrokerToControllerRequestThread)
+[2021-08-10 23:03:01,746] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(test-1, test-0) (kafka.server.ReplicaFetcherManager)
+[2021-08-10 23:03:01,945] INFO [Log partition=test-1, dir=D:\Make-a-thon\kafka\data\kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-08-10 23:03:01,952] INFO Created log for partition test-1 in D:\Make-a-thon\kafka\data\kafka\test-1 with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2021-08-10 23:03:01,955] INFO [Partition test-1 broker=0] No checkpointed highwatermark is found for partition test-1 (kafka.cluster.Partition)
+[2021-08-10 23:03:01,956] INFO [Partition test-1 broker=0] Log loaded for partition test-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-08-10 23:03:02,045] INFO [Log partition=test-0, dir=D:\Make-a-thon\kafka\data\kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-08-10 23:03:02,048] INFO Created log for partition test-0 in D:\Make-a-thon\kafka\data\kafka\test-0 with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2021-08-10 23:03:02,049] INFO [Partition test-0 broker=0] No checkpointed highwatermark is found for partition test-0 (kafka.cluster.Partition)
+[2021-08-10 23:03:02,050] INFO [Partition test-0 broker=0] Log loaded for partition test-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-08-10 23:03:40,607] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(tweets-1, tweets-0) (kafka.server.ReplicaFetcherManager)
+[2021-08-10 23:03:40,624] INFO [Log partition=tweets-1, dir=D:\Make-a-thon\kafka\data\kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-08-10 23:03:40,627] INFO Created log for partition tweets-1 in D:\Make-a-thon\kafka\data\kafka\tweets-1 with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2021-08-10 23:03:40,631] INFO [Partition tweets-1 broker=0] No checkpointed highwatermark is found for partition tweets-1 (kafka.cluster.Partition)
+[2021-08-10 23:03:40,631] INFO [Partition tweets-1 broker=0] Log loaded for partition tweets-1 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-08-10 23:03:40,708] INFO [Log partition=tweets-0, dir=D:\Make-a-thon\kafka\data\kafka] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2021-08-10 23:03:40,710] INFO Created log for partition tweets-0 in D:\Make-a-thon\kafka\data\kafka\tweets-0 with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2021-08-10 23:03:40,712] INFO [Partition tweets-0 broker=0] No checkpointed highwatermark is found for partition tweets-0 (kafka.cluster.Partition)
+[2021-08-10 23:03:40,713] INFO [Partition tweets-0 broker=0] Log loaded for partition tweets-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2021-08-10 23:32:23,366] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection reset (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:25,150] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:25,166] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:26,964] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:26,966] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:28,777] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:28,778] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:29,965] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:29,967] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:31,839] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:31,840] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:33,010] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:33,012] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:35,032] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:35,032] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:36,801] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:36,803] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:38,882] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:38,884] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:40,292] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:40,294] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:42,343] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:42,345] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:44,269] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:44,269] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:46,168] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:46,170] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:46,334] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,337] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,344] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,344] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,348] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:32:46,349] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:32:46,350] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:32:46,350] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-08-10 23:32:46,360] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-08-10 23:32:46,385] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,387] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,389] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,390] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:32:46,390] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-08-10 23:32:46,395] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 23:32:46,422] INFO Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,424] INFO Server environment:host.name=DESKTOP-VK49A2E.mshome.net (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,424] INFO Server environment:java.version=16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,425] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,425] INFO Server environment:java.home=C:\Program Files\Java\jdk-16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,426] INFO Server environment:java.class.path=D:\Make-a-thon\kafka\libs\activation-1.1.1.jar;D:\Make-a-thon\kafka\libs\aopalliance-repackaged-2.6.1.jar;D:\Make-a-thon\kafka\libs\argparse4j-0.7.0.jar;D:\Make-a-thon\kafka\libs\audience-annotations-0.5.0.jar;D:\Make-a-thon\kafka\libs\commons-cli-1.4.jar;D:\Make-a-thon\kafka\libs\commons-lang3-3.8.1.jar;D:\Make-a-thon\kafka\libs\connect-api-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-basic-auth-extension-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-file-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-json-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-client-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-runtime-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-transforms-2.8.0.jar;D:\Make-a-thon\kafka\libs\hk2-api-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-locator-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-utils-2.6.1.jar;D:\Make-a-thon\kafka\libs\jackson-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-core-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-databind-2.10.5.1.jar;D:\Make-a-thon\kafka\libs\jackson-dataformat-csv-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-datatype-jdk8-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-base-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-json-provider-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-jaxb-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-paranamer-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-scala_2.13-2.10.5.jar;D:\Make-a-thon\kafka\libs\jakarta.activation-api-1.2.1.jar;D:\Make-a-thon\kafka\libs\jakarta.annotation-api-1.3.5.jar;D:\Make-a-thon\kafka\libs\jakarta.inject-2.6.1.jar;D:\Make-a-thon\kafka\libs\jakarta.validation-api-2.0.2.jar;D:\Make-a-thon\kafka\libs\jakarta.ws.rs-api-2.1.6.jar;D:\Make-a-thon\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;D:\Make-a-thon\kafka\libs\javassist-3.27.0-GA.jar;D:\Make-a-thon\kafka\libs\javax.servlet-api-3.1.0.jar;D:\Make-a-thon\kafka\libs\javax.ws.rs-api-2.1.1.jar;D:\Make-a-thon\kafka\libs\jaxb-api-2.3.0.jar;D:\Make-a-thon\kafka\libs\jersey-client-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-common-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-core-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-hk2-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-media-jaxb-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-server-2.31.jar;D:\Make-a-thon\kafka\libs\jetty-client-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-continuation-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-http-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-io-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-security-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-server-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlet-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlets-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-ajax-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jline-3.12.1.jar;D:\Make-a-thon\kafka\libs\jopt-simple-5.0.4.jar;D:\Make-a-thon\kafka\libs\kafka-clients-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-log4j-appender-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-metadata-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-raft-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-shell-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-examples-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-scala_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-test-utils-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-tools-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar.asc;D:\Make-a-thon\kafka\libs\log4j-1.2.17.jar;D:\Make-a-thon\kafka\libs\lz4-java-1.7.1.jar;D:\Make-a-thon\kafka\libs\maven-artifact-3.6.3.jar;D:\Make-a-thon\kafka\libs\metrics-core-2.2.0.jar;D:\Make-a-thon\kafka\libs\netty-buffer-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-codec-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-handler-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-resolver-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-epoll-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-unix-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\osgi-resource-locator-1.0.3.jar;D:\Make-a-thon\kafka\libs\paranamer-2.8.jar;D:\Make-a-thon\kafka\libs\plexus-utils-3.2.1.jar;D:\Make-a-thon\kafka\libs\reflections-0.9.12.jar;D:\Make-a-thon\kafka\libs\rocksdbjni-5.18.4.jar;D:\Make-a-thon\kafka\libs\scala-collection-compat_2.13-2.3.0.jar;D:\Make-a-thon\kafka\libs\scala-java8-compat_2.13-0.9.1.jar;D:\Make-a-thon\kafka\libs\scala-library-2.13.5.jar;D:\Make-a-thon\kafka\libs\scala-logging_2.13-3.9.2.jar;D:\Make-a-thon\kafka\libs\scala-reflect-2.13.5.jar;D:\Make-a-thon\kafka\libs\slf4j-api-1.7.30.jar;D:\Make-a-thon\kafka\libs\slf4j-log4j12-1.7.30.jar;D:\Make-a-thon\kafka\libs\snappy-java-1.1.8.1.jar;D:\Make-a-thon\kafka\libs\zookeeper-3.5.9.jar;D:\Make-a-thon\kafka\libs\zookeeper-jute-3.5.9.jar;D:\Make-a-thon\kafka\libs\zstd-jni-1.4.9-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,436] INFO Server environment:java.library.path=C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;C:\Users\shubh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python39\;C:\Users\shubh\Anaconda3;C:\Users\shubh\Anaconda3\Library\mingw-w64\bin;C:\Users\shubh\Anaconda3\Library\usr\bin;C:\Users\shubh\Anaconda3\Library\bin;C:\Users\shubh\Anaconda3\Scripts;C:\Users\shubh\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python36\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,442] INFO Server environment:java.io.tmpdir=C:\Users\shubh\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,443] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,444] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,445] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,446] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,446] INFO Server environment:user.name=shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,447] INFO Server environment:user.home=C:\Users\shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,447] INFO Server environment:user.dir=D:\Make-a-thon\kafka (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,447] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,448] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,448] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,451] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,452] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,453] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir D:\Make-a-thon\kafka\data\zookeeper\version-2 snapdir D:\Make-a-thon\kafka\data\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:32:46,558] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2021-08-10 23:32:46,565] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 23:32:46,572] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 23:32:46,595] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2021-08-10 23:32:46,597] INFO Reading snapshot D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.0 (org.apache.zookeeper.server.persistence.FileSnap)
+[2021-08-10 23:32:46,645] INFO Snapshotting: 0x3a to D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.3a (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 23:32:46,668] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2021-08-10 23:32:46,676] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2021-08-10 23:32:47,818] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:47,820] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:63552, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:32:47,832] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, sessionid = 0x100023f1aea0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:06,338] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection reset (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:07,915] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:07,916] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:09,644] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:09,646] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:10,793] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:10,794] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:12,175] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:12,176] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:14,241] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:14,244] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused: no further information (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:14,298] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,302] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,313] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,314] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,317] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:33:14,317] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:33:14,318] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2021-08-10 23:33:14,318] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2021-08-10 23:33:14,327] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2021-08-10 23:33:14,351] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,353] WARN config\zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,360] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,361] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2021-08-10 23:33:14,362] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2021-08-10 23:33:14,371] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 23:33:14,393] INFO Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,394] INFO Server environment:host.name=DESKTOP-VK49A2E.mshome.net (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,394] INFO Server environment:java.version=16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,394] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,395] INFO Server environment:java.home=C:\Program Files\Java\jdk-16.0.2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,396] INFO Server environment:java.class.path=D:\Make-a-thon\kafka\libs\activation-1.1.1.jar;D:\Make-a-thon\kafka\libs\aopalliance-repackaged-2.6.1.jar;D:\Make-a-thon\kafka\libs\argparse4j-0.7.0.jar;D:\Make-a-thon\kafka\libs\audience-annotations-0.5.0.jar;D:\Make-a-thon\kafka\libs\commons-cli-1.4.jar;D:\Make-a-thon\kafka\libs\commons-lang3-3.8.1.jar;D:\Make-a-thon\kafka\libs\connect-api-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-basic-auth-extension-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-file-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-json-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-mirror-client-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-runtime-2.8.0.jar;D:\Make-a-thon\kafka\libs\connect-transforms-2.8.0.jar;D:\Make-a-thon\kafka\libs\hk2-api-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-locator-2.6.1.jar;D:\Make-a-thon\kafka\libs\hk2-utils-2.6.1.jar;D:\Make-a-thon\kafka\libs\jackson-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-core-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-databind-2.10.5.1.jar;D:\Make-a-thon\kafka\libs\jackson-dataformat-csv-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-datatype-jdk8-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-base-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-jaxrs-json-provider-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-jaxb-annotations-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-paranamer-2.10.5.jar;D:\Make-a-thon\kafka\libs\jackson-module-scala_2.13-2.10.5.jar;D:\Make-a-thon\kafka\libs\jakarta.activation-api-1.2.1.jar;D:\Make-a-thon\kafka\libs\jakarta.annotation-api-1.3.5.jar;D:\Make-a-thon\kafka\libs\jakarta.inject-2.6.1.jar;D:\Make-a-thon\kafka\libs\jakarta.validation-api-2.0.2.jar;D:\Make-a-thon\kafka\libs\jakarta.ws.rs-api-2.1.6.jar;D:\Make-a-thon\kafka\libs\jakarta.xml.bind-api-2.3.2.jar;D:\Make-a-thon\kafka\libs\javassist-3.27.0-GA.jar;D:\Make-a-thon\kafka\libs\javax.servlet-api-3.1.0.jar;D:\Make-a-thon\kafka\libs\javax.ws.rs-api-2.1.1.jar;D:\Make-a-thon\kafka\libs\jaxb-api-2.3.0.jar;D:\Make-a-thon\kafka\libs\jersey-client-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-common-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-container-servlet-core-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-hk2-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-media-jaxb-2.31.jar;D:\Make-a-thon\kafka\libs\jersey-server-2.31.jar;D:\Make-a-thon\kafka\libs\jetty-client-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-continuation-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-http-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-io-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-security-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-server-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlet-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-servlets-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jetty-util-ajax-9.4.39.v20210325.jar;D:\Make-a-thon\kafka\libs\jline-3.12.1.jar;D:\Make-a-thon\kafka\libs\jopt-simple-5.0.4.jar;D:\Make-a-thon\kafka\libs\kafka-clients-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-log4j-appender-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-metadata-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-raft-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-shell-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-examples-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-scala_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-streams-test-utils-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka-tools-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-javadoc.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test-sources.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0-test.jar.asc;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar;D:\Make-a-thon\kafka\libs\kafka_2.13-2.8.0.jar.asc;D:\Make-a-thon\kafka\libs\log4j-1.2.17.jar;D:\Make-a-thon\kafka\libs\lz4-java-1.7.1.jar;D:\Make-a-thon\kafka\libs\maven-artifact-3.6.3.jar;D:\Make-a-thon\kafka\libs\metrics-core-2.2.0.jar;D:\Make-a-thon\kafka\libs\netty-buffer-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-codec-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-handler-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-resolver-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-epoll-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\netty-transport-native-unix-common-4.1.62.Final.jar;D:\Make-a-thon\kafka\libs\osgi-resource-locator-1.0.3.jar;D:\Make-a-thon\kafka\libs\paranamer-2.8.jar;D:\Make-a-thon\kafka\libs\plexus-utils-3.2.1.jar;D:\Make-a-thon\kafka\libs\reflections-0.9.12.jar;D:\Make-a-thon\kafka\libs\rocksdbjni-5.18.4.jar;D:\Make-a-thon\kafka\libs\scala-collection-compat_2.13-2.3.0.jar;D:\Make-a-thon\kafka\libs\scala-java8-compat_2.13-0.9.1.jar;D:\Make-a-thon\kafka\libs\scala-library-2.13.5.jar;D:\Make-a-thon\kafka\libs\scala-logging_2.13-3.9.2.jar;D:\Make-a-thon\kafka\libs\scala-reflect-2.13.5.jar;D:\Make-a-thon\kafka\libs\slf4j-api-1.7.30.jar;D:\Make-a-thon\kafka\libs\slf4j-log4j12-1.7.30.jar;D:\Make-a-thon\kafka\libs\snappy-java-1.1.8.1.jar;D:\Make-a-thon\kafka\libs\zookeeper-3.5.9.jar;D:\Make-a-thon\kafka\libs\zookeeper-jute-3.5.9.jar;D:\Make-a-thon\kafka\libs\zstd-jni-1.4.9-1.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,408] INFO Server environment:java.library.path=C:\Program Files\Java\jdk-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\Android;C:\Windows\System32;C:\Program Files\Git\cmd;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;C:\Users\shubh\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python39\;C:\Users\shubh\Anaconda3;C:\Users\shubh\Anaconda3\Library\mingw-w64\bin;C:\Users\shubh\Anaconda3\Library\usr\bin;C:\Users\shubh\Anaconda3\Library\bin;C:\Users\shubh\Anaconda3\Scripts;C:\Users\shubh\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\shubh\AppData\Local\Programs\Python\Python36\;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;D:\Make-a-thon\apache-maven-3.8.1\bin;C:\Program Files\Java\jdk-16.0.2\bin;C:\Users\shubh\AppData\Local\Programs\Microsoft VS Code\bin;D:\Make-a-thon\kafka_2.13-2.8.0\bin;;. (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,410] INFO Server environment:java.io.tmpdir=C:\Users\shubh\AppData\Local\Temp\ (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,412] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,413] INFO Server environment:os.name=Windows 10 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,414] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,415] INFO Server environment:os.version=10.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,415] INFO Server environment:user.name=shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,416] INFO Server environment:user.home=C:\Users\shubh (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,416] INFO Server environment:user.dir=D:\Make-a-thon\kafka (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,417] INFO Server environment:os.memory.free=496MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,417] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,418] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,422] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,424] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,427] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir D:\Make-a-thon\kafka\data\zookeeper\version-2 snapdir D:\Make-a-thon\kafka\data\zookeeper\version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2021-08-10 23:33:14,523] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2021-08-10 23:33:14,529] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 23:33:14,539] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2021-08-10 23:33:14,565] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2021-08-10 23:33:14,568] INFO Reading snapshot D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.3a (org.apache.zookeeper.server.persistence.FileSnap)
+[2021-08-10 23:33:14,598] INFO Snapshotting: 0x3a to D:\Make-a-thon\kafka\data\zookeeper\version-2\snapshot.3a (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2021-08-10 23:33:14,624] INFO PrepRequestProcessor (sid:0) started, reconfigEnabled=false (org.apache.zookeeper.server.PrepRequestProcessor)
+[2021-08-10 23:33:14,634] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2021-08-10 23:33:15,943] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:15,946] INFO Socket connection established, initiating session, client: /127.0.0.1:63562, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:33:15,978] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100023f1aea0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2021-08-10 23:35:30,023] INFO Creating new log file: log.3b (org.apache.zookeeper.server.persistence.FileTxnLog)
