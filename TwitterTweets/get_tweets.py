@@ -1,6 +1,12 @@
 import tweepy
 import pandas
 import json # The API returns JSON formatted text
+import os
+
+cwd = os.getcwd()
+os.chdir('kafka')
+os.system('bin\windows\kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 4 --topic tweets')
+os.chdir(cwd)
 
 access_token = "Get your own"
 access_token_secret =  "Get your own"
