@@ -2,10 +2,10 @@ import tweepy
 import pandas
 import json # The API returns JSON formatted text
 
-access_token = "Put your own"
-access_token_secret =  "Put your own"
-consumer_key =  "Put your own"
-consumer_secret =  "Put your own"
+access_token = "1421233278707585026-s1UbXFX11FADjq953nUgcsazNpLpkM"
+access_token_secret =  "WTyWkTqVBDcDpBVco4dvvA40HqgCRNRDk9zRDw6DzQB5i"
+consumer_key =  "CtqriL3pm9W5KPmxLlfNRll7E"
+consumer_secret =  "twRukl7CyAfIXArBZgy5PFZuZ2gjfNEoyoeo2gZNALQAEwcAnr"
 
 # Pass OAuth details to tweepy's OAuth handler
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
