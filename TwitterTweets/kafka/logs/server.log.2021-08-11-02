@@ -1,0 +1,1 @@
+[2021-08-11 02:52:14,966] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection reset (org.apache.zookeeper.ClientCnxn)
